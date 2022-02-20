@@ -1,13 +1,11 @@
-//adicionando estrutura de condição IF/Else//
-
-//Não estou conseguindo fazer as três condições//
+//adicionando a primeira estrutura condicionalIf//
 
 var gasolina = prompt ("O preço da gasolina é:")
 var alcool = prompt ("O preço do álcool é:")
 var total = (alcool/gasolina)
 console.log (total)
 
-if (total ==0.70){console.log ("Ambas as opções são vantajosas")
-} else if (total<0.70 ==true) {console.log ("A melhor opção para rebastecer é o álcool")
-}else (total >0.7)
-{console.log ("A mellhor opção para rebastecer é a gasolina")}
+if (total >0.7)
+{console.log ("A melhor opção para abastecer é a gasolina")}else 
+{console.log ("A melhor opção é abastecer a álcool")
+}
