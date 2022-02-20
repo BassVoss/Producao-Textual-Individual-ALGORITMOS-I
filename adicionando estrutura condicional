@@ -2,10 +2,8 @@
 
 var gasolina = prompt ("O preço da gasolina é:")
 var alcool = prompt ("O preço do álcool é:")
-var total = (alcool/gasolina)
-console.log (total)
 
-if (total >0.7)
+if (alcool/gasolina>0.7)
 {console.log ("A melhor opção para abastecer é a gasolina")}else 
 {console.log ("A melhor opção é abastecer a álcool")
 }
