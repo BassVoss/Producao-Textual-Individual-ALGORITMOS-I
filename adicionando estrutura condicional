@@ -1,4 +1,4 @@
-//adicionando a primeira estrutura condicionalIf//
+//adicionando a primeira estrutura condicional If//
 
 var gasolina = prompt ("O preço da gasolina é:")
 var alcool = prompt ("O preço do álcool é:")
