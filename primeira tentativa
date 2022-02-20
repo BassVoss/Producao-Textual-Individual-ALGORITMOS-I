@@ -1,0 +1,10 @@
+//Esses foram os primeiros passos que dei para começar a desenvolver o aplicativo//
+
+var gasolina = prompt ("O preço da gasolina é:")
+var alcool = prompt ("O preço do álcool é:")
+var total = (alcool/gasolina)
+console.log (total)
+
+if (total<0.69){console.log ("A melhor opção para rebastecer é o álcool")
+}else {console.log ("Ambas as opções são vantajosas")
+}if (total=0.70 ==true){console.log ("A mellhor opção para rebastecer é a gasolina")}
