@@ -1,0 +1,20 @@
+// Depois de várias tentativas e pedidos de ajuda eu consegui fazer com que o programa lesse as três condições
+
+//o resultado até o momento é:
+
+console.log (" Saiba qual é a melhor escolha na hora de abastecer!"+"\n")
+
+gasolina = prompt("Insira o valor da gasolina")
+alcool = prompt("Insira o valor da álcool")
+
+total = alcool/gasolina
+
+console.log(total+"\n")
+
+if (total<0.70){
+  console.log("A melhor opção é o álcool")
+}else if (total>0.71) {
+  console.log("A melhor opção é a gasolina")
+}else {
+  console.log("Ambas as opções são boas")
+}
