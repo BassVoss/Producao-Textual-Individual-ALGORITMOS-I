@@ -1,0 +1,46 @@
+//Essa é a primeira versão final do programa. Ela responde a todos os critérios do exercício.// 
+
+//Programa de escolha de combustível//
+
+console.log (" Saiba qual é a melhor escolha na hora de abastecer!"+"\n")
+
+gasolina = prompt("Insira o valor da gasolina")
+alcool = prompt("Insira o valor da álcool")
+
+total = alcool/gasolina
+
+console.log(total+"\n")
+
+if (total<0.70){
+  console.log("A melhor opção é o álcool"+"\n")
+}else if (total>0.71) {
+  console.log("A melhor opção é a gasolina"+"\n")
+}else {
+  console.log("Ambas as opções são boas"+"\n")
+}
+
+console.log("Você deseja fazer nova verificação?"+"\n")
+
+resposta=prompt("Por favor, digite Sim ou Não.")
+
+while (resposta==="sim"){
+gasolina = prompt("Insira o valor da gasolina")
+alcool = prompt("Insira o valor da álcool")
+
+total = alcool/gasolina
+
+console.log(total+"\n")
+
+if (total<0.70){
+  console.log("A melhor opção é o álcool"+"\n")
+}else if (total>0.71) {
+  console.log("A melhor opção é a gasolina"+"\n")
+}else {
+  console.log("Ambas as opções são boas"+"\n")
+}
+
+console.log("Você deseja fazer nova verificação?"+"\n")
+
+resposta=prompt("Por favor, digite Sim ou Não."+"\n")
+}
+console.log("Fim")
